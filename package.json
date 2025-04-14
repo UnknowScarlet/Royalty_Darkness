@@ -1,0 +1,34 @@
+{
+  "name": "royalty-darkness",
+  "displayName": "Royalty Darkness",
+  "publisher": "unknowScarlet",
+  "description": "Coding environment",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "./icons/logo.png",
+  "license": "LICENSE.txt",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Royalty Darkness Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Royalty_Darkness-color-theme.json"
+      },
+      {
+        "label": "Royalty Darkness Light",
+        "uiTheme": "vs",
+        "path": "./themes/Royalty_Darkness-Light-color-theme.json"
+      },
+      {
+        "label": "Royalty Darkness Softer Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Royalty_Darkness-SofterDark-color-theme.json"
+      }
+    ]
+  }
+}
